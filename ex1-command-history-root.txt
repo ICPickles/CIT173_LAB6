@@ -1,0 +1,67 @@
+ 119  usermod Mark Hamill
+  120  useradd -m Mark Hamill
+  121  awk -F: '{ print $1 }' /etc/passwd 
+  122  adduser -m Mark Hamill
+  123  awk -F: '{ print $1 }' /etc/passwd 
+  124  adduser -m MarkHamill
+  125  passwd MarkHamill
+  126  usermod -g 1001 MarkHamill
+  127  cat /etc/groups
+  128  cat /etc/group
+  129  usermod -l  Mark Hamill
+  130  usermod -l  Mark_Hamill MarkHamill
+  131  cat /etc/group
+  132  usermod -l  Mark_Hamill 
+  133  usermod -l  MarkHamill Mark_Hamill 
+  134  sudo Mark_Hamill
+  135  exit
+  136  passwd Harrison_Ford
+  137  usermod -l hford Harrison_Ford 
+  138  usermod -g 1001 Harrison_Ford
+  139  usermod -g 1001 hford
+  140  cat /etc/passwd
+  141  usermod hford -c "Harrison_Ford"
+  142  cat /etc/passwd
+  143  usermod mhamill -c "Mark Hamill"
+  144  useradd -m cfisher -c "Carrie Fisher" -g 1001
+  145  passwd cfisher
+  146  cat /etc/passwd
+  147  useradd -m glucas -c "George Lucas" -G 1002 1003
+  148  useradd -m glucas -c "George Lucas" -G directors producers
+  149  cat /etc/passwd
+  150  useradd -m glucas -c "George Lucas" -G directors producers
+  151  useradd -m glucas -c "George Lucas" -G directors,producers
+  152  cat /etc/passwd
+  153  cat /etc/groups
+  154  exit
+  155  cat /etc/group
+  156  cat /etc/passwd
+  157  tail history
+  158  history | less
+  159  awk -F: '{ print $1 }' /etc/passwd 
+  160  passwd glucas
+  161  useradd -m gkurtz -c "Gary Kurtz" -g producers
+  162  cat /etc/passwd
+  163  usermod -c "Harrison Ford" hford
+  164  cat /etc/passwd
+  165  userdel mhamill hford
+  166  userde -rl mhamill 
+  167  userdel -r  mhamill 
+  168  userdel -r  hford
+  169  useradd -m mhamill -c "Mark Hamill" -g actors
+  170  passwd mhamill
+  171  useradd -m hford -c "Harrison Ford" -g actors
+  172  cat /etc/passwd
+  173  passwd hford
+  174  cp /etc/passwd > ~/CIT173_Lab6
+  175  cp /etc/passwd etcpassword.txt > ~/CIT173_Lab6
+  176  echo etcpassword.txt
+  177  ls etcpassword.txt
+  178  ls-l etcpassword.txt
+  179  ls -l etcpassword.txt
+  180  exit
+  181  history > ~/CIT173_Lab6/ex1-command-history-root.txt
+  182  history > icpickles/CIT173_Lab6/ex1-command-history-root.txt
+  183  exit
+  184  history
+
